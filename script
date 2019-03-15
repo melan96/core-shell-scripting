@@ -29,5 +29,13 @@ echo "post-decrement -> $((num1--))"
 echo "pre-increment -> $((++num1))"
 echo "pre-decrement -> $((--num1))"
 
+#access floating point values 
+numfloat=4.11
+num2float=5.62
+
+#in this execution shell scripting use python commands
+result_float=$(python -c "print $numfloat+$num2float")
+echo "python -> execution $result_float",#0000FF
+
 
 
