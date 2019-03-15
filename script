@@ -22,5 +22,12 @@ echo "calcultion done by separate block result is @ $num_result"
 declare -r const_number=221
 echo "constant number is $const_number"
 
+#prefix / postfix -> increment / decrement
+
+echo "post-increment -> $((num1++))"
+echo "post-decrement -> $((num1--))"
+echo "pre-increment -> $((++num1))"
+echo "pre-decrement -> $((--num1))"
+
 
 
