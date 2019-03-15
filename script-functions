@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#define a function to get current time
+ getTime(){
+	 date
+	return
+ }
+
+#a function which takes arguments and process return
+calcSum(){
+	
+	num1=$1
+	num2=$2
+	
+	result=$((num1+num2))
+	echo $result
+	}
+
+
+getTime
+calcResult=$(calcSum 2 5)
+
+echo "function execution -> $calcResult"
+
+#end of exection
+
