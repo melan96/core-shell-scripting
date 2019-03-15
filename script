@@ -2,3 +2,25 @@
 
 #Simple Hello World using script
 echo "Hello World"
+
+#basic arthmatic calculation 
+
+#define an variable
+
+num1=4
+num2=7
+
+#calculation done in echo line
+echo "This is Sum of $num1 and $num2 = $((num1+num2))"
+
+#calculation execution in separate block of code
+
+num_result=$((num1+num2))
+echo "calcultion done by separate block result is @ $num_result"
+
+#define a constant number
+declare -r const_number=221
+echo "constant number is $const_number"
+
+
+
